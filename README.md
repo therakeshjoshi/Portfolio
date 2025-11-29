@@ -33,7 +33,7 @@
   </div>
 </div>
 ---
-## About Me
+# About Me
 
 I am Rakesh Joshi, a Systems and Control Engineering graduate student at IIT Bombay with a background in Computer Science and Engineering.  
 My interests include Machine Learning, Systems Design, and Automated Reasoning.  
