@@ -1,4 +1,4 @@
-# Rakesh Joshi
+
 
 Mumbai, India  
 Email: [rakeshkrushnajoshi@gmail.com](mailto:rakeshkrushnajoshi@gmail.com)  
