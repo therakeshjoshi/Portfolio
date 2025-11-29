@@ -1,6 +1,3 @@
-<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 250px;">
-
 <div style="
   display: flex; 
   align-items: center; 
@@ -22,13 +19,19 @@
   </div>
 
   <!-- Right side: Profile image -->
-  <div style="flex-shrink: 0; margin-left: 20px;">
+  <div style="flex-shrink: 0; margin-left: 30px;">
     <img src="/cropped_circle_image.png" 
-         alt="Rakesh Joshi" 
-     
+         alt="Rakesh Joshi"
+         style="
+           width: 200px;
+           height: 200px;
+           object-fit: cover;
+           border-radius: 50%;
+           border: 3px solid black;
+           box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+         " />
   </div>
 </div>
-
 ---
 ## About Me
 
