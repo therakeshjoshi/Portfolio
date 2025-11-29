@@ -1,17 +1,30 @@
-<img src="/profile.png" 
-     alt="Rakesh Joshi" 
-     align="right" 
-     width="160" 
-     style="border-radius: 50%; border: 3px solid black; margin: 10px 20px 10px 20px;" />
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 250px;">
 
+  <h1>Rakesh Joshi</h1>
 
-Mumbai, India  
-Email: [rakeshkrushnajoshi@gmail.com](mailto:rakeshkrushnajoshi@gmail.com)  
-LinkedIn: [linkedin.com/in/therakeshjoshi](https://linkedin.com/in/therakeshjoshi)  
-Website: [www.rakeshjoshi.in](https://www.rakeshjoshi.in)  
-Phone: +91 8830744099  
+  <p>
+  Mumbai, India<br>
+  Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
+  LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
+  Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a><br>
+  Phone: +91 8830744099
+  </p>
+
+  </div>
+
+  <div style="flex-shrink: 0;">
+    <img src="/profile.png" 
+         alt="Rakesh Joshi" 
+         width="160" 
+         style="border-radius: 50%; border: 3px solid black; margin-left: 20px;" />
+  </div>
+</div>
 
 ---
+
+## About Me
+
 
 ## About Me
 
