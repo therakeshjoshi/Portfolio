@@ -1,4 +1,4 @@
-<img src="profile.png" alt="Rakesh Joshi" align="right" width="150" />
+<img src="pic.png" alt="Rakesh Joshi" align="right" width="150" />
 
 Mumbai, India  
 Email: [rakeshkrushnajoshi@gmail.com](mailto:rakeshkrushnajoshi@gmail.com)  
