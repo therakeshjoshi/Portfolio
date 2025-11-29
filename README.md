@@ -20,7 +20,7 @@
 
   <!-- Right side: Profile image -->
   <div style="flex-shrink: 0; margin-left: 30px;">
-    <img src="/cropped_circle_image.png" 
+    <img src="cropped_circle_image.png" 
          alt="Rakesh Joshi"
          style="
            width: 200px;
@@ -32,7 +32,6 @@
          " />
   </div>
 </div>
----
 
 ## About Me
 
