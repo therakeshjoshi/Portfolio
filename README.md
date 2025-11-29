@@ -23,15 +23,9 @@
 
   <!-- Right side: Profile image -->
   <div style="flex-shrink: 0; margin-left: 20px;">
-    <img src="/profile.png" 
+    <img src="/cropped_circle_image.png" 
          alt="Rakesh Joshi" 
-         style="
-           width: 180px;
-           height: 180px;
-           object-fit: cover;
-           border-radius: 50%;
-           border: 3px solid black;
-         " />
+     
   </div>
 </div>
 
