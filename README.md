@@ -95,13 +95,4 @@ Website: [www.rakeshjoshi.in](https://www.rakeshjoshi.in)
 
 *"Striving to connect theoretical understanding with practical systems through design, data, and intelligence."*
 
----
 
-**You've experienced ScholarGPT — now meet what's next.**  
-*Scholar Deep Research Agent* elevates your research game with:  
-350M+ trusted papers from top academic publishers, updated hourly.  
-Advanced multiple AI models dig through millions of sources for pinpoint insights, fast.  
-Auto-generated highlights, smart notes, and visual reports.  
-All saved directly to your AI-powered knowledge base.  
-ScholarGPT helped you search. Now, transform how you think.  
-[Explore Scholar Deep Research](https://bit.ly/43rXgSx)
