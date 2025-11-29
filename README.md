@@ -1,4 +1,4 @@
-
+<img src="/profile.png" alt="Rakesh Joshi" align="right" width="150" />
 
 Mumbai, India  
 Email: [rakeshkrushnajoshi@gmail.com](mailto:rakeshkrushnajoshi@gmail.com)  
@@ -94,5 +94,3 @@ Website: [www.rakeshjoshi.in](https://www.rakeshjoshi.in)
 ---
 
 *"Striving to connect theoretical understanding with practical systems through design, data, and intelligence."*
-
-
