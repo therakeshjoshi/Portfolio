@@ -1,31 +1,41 @@
 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 250px;">
 
-  <h1>Rakesh Joshi</h1>
+<div style="
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+">
 
-  <p>
-  Mumbai, India<br>
-  Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
-  LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
-  Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a><br>
-  Phone: +91 8830744099
-  </p>
-
+  <!-- Left side: Text -->
+  <div style="flex: 1; min-width: 280px;">
+    <h1 style="margin-bottom: 10px;">Rakesh Joshi</h1>
+    <p style="line-height: 1.6; font-size: 16px;">
+      Mumbai, India<br>
+      Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
+      LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
+      Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a><br>
+      Phone: +91 8830744099
+    </p>
   </div>
 
-  <div style="flex-shrink: 0;">
+  <!-- Right side: Profile image -->
+  <div style="flex-shrink: 0; margin-left: 20px;">
     <img src="/profile.png" 
          alt="Rakesh Joshi" 
-         width="160" 
-         style="border-radius: 50%; border: 3px solid black; margin-left: 20px;" />
+         style="
+           width: 180px;
+           height: 180px;
+           object-fit: cover;
+           border-radius: 50%;
+           border: 3px solid black;
+         " />
   </div>
 </div>
 
 ---
-
-## About Me
-
-
 ## About Me
 
 I am Rakesh Joshi, a Systems and Control Engineering graduate student at IIT Bombay with a background in Computer Science and Engineering.  
