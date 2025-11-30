@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rakesh Joshi</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    /* ===== NAVBAR STYLING ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004aad;
+      color: #fff;
+      padding: 10px 25px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-radius: 4px;
+    }
+
+    .navbar h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .navbar h1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffdd57;
+    }
+
+    /* ===== HAMBURGER MENU ===== */
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      background: #fff;
+      height: 3px;
+      width: 25px;
+      margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+
+    @media (max-width: 700px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #004aad;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 6px 6px;
+        padding: 10px 0;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    /* ===== CONTACT CARD ===== */
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #004aad;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    .email-list {
+      font-size: 18px;
+      margin-bottom: 25px;
+      text-align: left;
+      display: inline-block;
+    }
+
+    .email-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 12px 0;
+    }
+
+    .email-item svg {
+      width: 20px;
+      height: 20px;
+      fill: #004aad;
+      flex-shrink: 0;
+    }
+
+    .email-item a {
+      color: #004aad;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .email-item a:hover {
+      text-decoration: underline;
+    }
+
+    .address {
+      margin-top: 35px;
+      font-size: 16px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+
+      .email-list {
+        text-align: center;
+      }
+
+      .email-item {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR START ===== -->
+  <nav class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <!-- ===== NAVBAR END ===== -->
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <div class="container">
+    <h1>Contact</h1>
+
+    <div class="email-list">
+      <div class="email-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        <a href="mailto:rakeshjoshiamravati@gmail.com">rakeshjoshiamravati@gmail.com</a>
+      </div>
+
+      <div class="email-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        <a href="mailto:rakeshjoshi@iitb.ac.in">rakeshjoshi@iitb.ac.in</a>
+      </div>
+
+      <div class="email-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="address">
+      <strong>Address:</strong><br>
+      Hostel 6, IIT Bombay<br>
+      Mumbai – 400076, India
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
