@@ -117,7 +117,7 @@
 
   <!-- ===== NAVBAR START ===== -->
   <nav class="navbar">
-    <h1><a href="https://www.rakeshjoshi.in/">Rakesh Joshi</a></h1>
+    <!-- <h1><a href="https://www.rakeshjoshi.in/">Rakesh Joshi</a></h1> -->
 
     <div class="menu-toggle" onclick="toggleMenu()">
       <span></span>
