@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education | Rakesh Joshi</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    /* ===== NAVBAR STYLING ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004aad;
+      color: #fff;
+      padding: 10px 25px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-radius: 4px;
+    }
+
+    .navbar h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .navbar h1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffdd57;
+    }
+
+    /* ===== HAMBURGER MENU ===== */
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      background: #fff;
+      height: 3px;
+      width: 25px;
+      margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+
+    @media (max-width: 700px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #004aad;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 6px 6px;
+        padding: 10px 0;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    /* ===== CONTENT CARD ===== */
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #004aad;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+
+    .edu-item {
+      margin-bottom: 25px;
+      border-left: 4px solid #004aad;
+      padding-left: 15px;
+    }
+
+    .edu-item h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #222;
+    }
+
+    .edu-info {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR START ===== -->
+  <nav class="navbar">
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <!-- ===== NAVBAR END ===== -->
+
+  <!-- ===== EDUCATION CONTENT ===== -->
+  <div class="container">
+    <h1>Education</h1>
+
+    <div class="edu-item">
+      <h2>Indian Institute of Technology, Bombay</h2>
+      <div class="edu-info">
+        <strong>Degree:</strong> Master of Technology (M.Tech) – Systems and Control Engineering<br>
+        <strong>Duration:</strong> Aug 2025 – Jul 2027<br>
+        <strong>Skills:</strong> Python (Programming Language), NumPy
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Prof. Ram Meghe Institute of Technology & Research, Amravati</h2>
+      <div class="edu-info">
+        <strong>Degree:</strong> Bachelor of Engineering – Computer Science and Engineering<br>
+        <strong>Duration:</strong> Aug 2021 – Jul 2025<br>
+        <strong>CGPA:</strong> 8.84 / 10.0 (Aggregate SGPA 8.52%)<br>
+        <strong>Activities:</strong> Class Representative, TWFS Student<br>
+        <strong>Skills:</strong> C Programming, C++, Data Structures
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Vidyabharati Mahavidyalaya, C.K. Naydu Road, Camp, Amravati</h2>
+      <div class="edu-info">
+        <strong>Standard:</strong> 11th & 12th (HSC) – Physics, Chemistry, Biology, Mathematics<br>
+        <strong>Duration:</strong> Aug 2019 – Mar 2021<br>
+        <strong>Grade:</strong> 82.17% (Distinction)<br>
+        <strong>Board:</strong> Maharashtra State Board of Secondary and Higher Secondary Education, Pune
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Shri Ganeshdas Rathi Vidyalaya, Amravati</h2>
+      <div class="edu-info">
+        <strong>Standard:</strong> 8th to 10th (SSC)<br>
+        <strong>Duration:</strong> Jun 2016 – Mar 2019<br>
+        <strong>Grade:</strong> 82% (Distinction)
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Shree Devara Dada High School, Tiosa</h2>
+      <div class="edu-info">
+        <strong>Standard:</strong> 5th to 7th<br>
+        <strong>Duration:</strong> Jun 2013 – May 2016
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Zilla Parishad Purv Madhyamik Shala, Kolvihir, Morshi, Amravati</h2>
+      <div class="edu-info">
+        <strong>Standard:</strong> 3rd & 4th (Marathi Medium)<br>
+        <strong>Duration:</strong> Jun 2011 – Mar 2013
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <h2>Saraswati Vidhya Mandir, Raver, Jalgaon</h2>
+      <div class="edu-info">
+        <strong>Standard:</strong> 1st & 2nd<br>
+        <strong>Duration:</strong> Jun 2009 – May 2011
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
