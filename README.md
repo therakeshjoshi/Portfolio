@@ -61,35 +61,6 @@ I enjoy solving complex technical challenges that combine mathematical modeling,
 
 ---
 
-## Academic and Self Projects
-
-### Adversarial Examples in Neural Networks: Reproducing FGSM  
-Sep 2025 – Nov 2025  
-Course: CS725 - Foundations of Machine Learning  
-Guide: Prof. Abir De, Department of CSE, IIT Bombay  
-
-- Implemented the FGSM adversarial attack method on neural networks.  
-- Studied robustness metrics and defense mechanisms for model stability.  
-- Conducted experiments on benchmark datasets to evaluate vulnerability and resilience.  
-
-### MSO over Finite Words and Automata-Based Decision Procedure  
-Oct 2025  
-Course: CS771 - Foundations of Verification and Automated Reasoning  
-Guide: Prof. Paritosh Pandya, Department of CSE, IIT Bombay  
-
-- Analyzed the relationship between monadic second-order logic and automata theory.  
-- Developed a tool to perform automated verification of logical properties over finite word structures.  
-- Explored the theoretical underpinnings of decision procedures for MSO formulas.  
-
-### Self Project — [Insert Project Title]  
-Jan 2017 – Jan 2019  
-
-- Designed and implemented software components to improve system performance.  
-- Utilized multiple technologies (A, B, C) to enhance project outcomes.  
-- Conducted data analysis and system optimization to achieve measurable improvements.  
-
----
-
 ## Achievements
 
 - Scored 99.74 Percentile in UGC-NET (Computer Science and Applications) with Junior Research Fellowship (JRF), 2024.  
