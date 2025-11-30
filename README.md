@@ -1,93 +1,276 @@
-<div style="
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-">
 
-  <!-- Left side: Text -->
-  <div style="flex: 1; min-width: 280px;">
-    <h1 style="margin-bottom: 10px;">Rakesh Joshi</h1>
-    <p style="line-height: 1.6; font-size: 16px;">
-      Mumbai, India<br>
-      Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
-      LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
-      Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a><br>
-      Phone: +91 8830744099
-    </p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rakesh Joshi | Portfolio</title>
+  
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    /* ===== NAVBAR STYLING ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004aad;
+      color: #fff;
+      padding: 10px 25px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-radius: 4px;
+    }
+
+    .navbar h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .navbar h1 a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ffdd57;
+    }
+
+    /* ===== HAMBURGER MENU ===== */
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      background: #fff;
+      height: 3px;
+      width: 25px;
+      margin: 4px 0;
+      transition: all 0.3s ease;
+    }
+
+    @media (max-width: 700px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #004aad;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 6px 6px;
+        padding: 10px 0;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    h1, h2 {
+      color: #004aad;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 30px 0;
+    }
+
+    a {
+      color: #004aad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR START ===== -->
+  <nav class="navbar">
+    <h1><a href="https://www.rakeshjoshi.in/">Rakesh Joshi</a></h1>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="https://rakeshjoshi.in/projects.html">Projects</a>
+      <a href="https://rakeshjoshi.in/education.html">Education</a>
+      <a href="https://rakeshjoshi.in/contact.html">Contact</a>
+    </div>
+  </nav>
+  <!-- ===== NAVBAR END ===== -->
+
+
+  <!-- ===== HEADER SECTION ===== -->
+  <div style="
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  ">
+
+    <!-- Left side: Text -->
+    <div style="flex: 1; min-width: 280px;">
+      <h1 style="margin-bottom: 10px;">Rakesh Joshi</h1>
+      <p style="line-height: 1.6; font-size: 16px;">
+        Mumbai, India<br>
+        Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
+        LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
+        Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a><br>
+        Phone: +91 8830744099
+      </p>
+    </div>
+
+    <!-- Right side: Profile image -->
+    <div style="flex-shrink: 0; margin-left: 30px;">
+      <img src="cropped_circle_image.png" 
+          alt="Rakesh Joshi"
+          style="
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid black;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+          " />
+    </div>
   </div>
 
-  <!-- Right side: Profile image -->
-  <div style="flex-shrink: 0; margin-left: 30px;">
-    <img src="cropped_circle_image.png" 
-         alt="Rakesh Joshi"
-         style="
-           width: 200px;
-           height: 200px;
-           object-fit: cover;
-           border-radius: 50%;
-           border: 3px solid black;
-           box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-         " />
-  </div>
-</div>
----
+  <hr>
 
-## About Me
+  <!-- ===== ABOUT ===== -->
+  <h2>About Me</h2>
+  <p>
+    I am Rakesh Joshi, a Systems and Control Engineering graduate student at IIT Bombay with a background in Computer Science and Engineering.  
+    My interests include Machine Learning, Systems Design, and Automated Reasoning.  
+    I enjoy solving complex technical challenges that combine mathematical modeling, algorithmic thinking, and practical implementation.
+  </p>
 
-I am Rakesh Joshi, a Systems and Control Engineering graduate student at IIT Bombay with a background in Computer Science and Engineering.  
-My interests include Machine Learning, Systems Design, and Automated Reasoning.  
-I enjoy solving complex technical challenges that combine mathematical modeling, algorithmic thinking, and practical implementation.
+  <hr>
 
----
+  <!-- ===== EDUCATION ===== -->
+  <h2>Education</h2>
+  <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%;">
+    <tr style="background-color: #e6f0ff;">
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Year</th>
+      <th>CGPA / %</th>
+    </tr>
+    <tr>
+      <td>Master of Technology in Systems and Control Engineering</td>
+      <td>IIT Bombay, India</td>
+      <td>2025 – 2027</td>
+      <td>NA / 10.0</td>
+    </tr>
+    <tr>
+      <td>Bachelor of Engineering in Computer Science and Engineering</td>
+      <td>Prof Ram Meghe Institute of Technology and Research, Amravati</td>
+      <td>2021 – 2025</td>
+      <td>8.84 / 10.0</td>
+    </tr>
+    <tr>
+      <td>Higher Secondary</td>
+      <td>Vidyabharti Mahavidyalaya, Amravati</td>
+      <td>2021</td>
+      <td>82.17%</td>
+    </tr>
+  </table>
 
-## Education
+  <hr>
 
-| Degree | Institution | Year | CGPA / % |
-|:--------|:-------------|:------|:-----------|
-| Master of Technology in Systems and Control Engineering | IIT Bombay, India | 2025 – 2027 | NA / 10.0 |
-| Bachelor of Engineering in Computer Science and Engineering | Prof Ram Meghe Institute of Technology and Research, Amravati | 2021 – 2025 | 8.84 / 10.0 |
-| Higher Secondary | Vidyabharti Mahavidyalaya, Amravati | 2021 | 82.17% |
+  <!-- ===== SKILLS ===== -->
+  <h2>Skills</h2>
+  <p>
+    <strong>Programming Languages:</strong> C/C++, Python, Java, SQL, JavaScript, HTML/CSS <br>
+    <strong>Technologies & Tools:</strong> A, B, C, D *(to be customized)* <br>
+    <strong>Libraries:</strong> NumPy, TensorFlow, PyTorch *(examples)* <br>
+    <strong>System Fundamentals:</strong> Operating Systems, DBMS, Computer Networks, OOP, Computer Architecture, System Design, DSA
+  </p>
 
----
+  <hr>
 
-## Skills
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <h2>Achievements</h2>
+  <ul>
+    <li>Scored 99.74 Percentile in UGC-NET (Computer Science and Applications) with Junior Research Fellowship (JRF), 2024.</li>
+    <li>Maintained a consistent academic record, ranking among the top students throughout undergraduate studies.</li>
+  </ul>
 
-**Programming Languages:** C/C++, Python, Java, SQL, JavaScript, HTML/CSS  
-**Technologies & Tools:** A, B, C, D *(to be customized)*  
-**Libraries:** A, B, C, D *(e.g., NumPy, TensorFlow, PyTorch)*  
-**System Fundamentals:** Operating Systems, DBMS, Computer Networks, OOP, Computer Architecture, System Design, DSA  
+  <hr>
 
----
+  <!-- ===== POSITIONS OF RESPONSIBILITY ===== -->
+  <h2>Positions of Responsibility</h2>
+  <p>
+    *(Add details such as student coordinator, teaching assistant, research assistant, or leadership roles.)*
+  </p>
 
-## Achievements
+  <hr>
 
-- Scored 99.74 Percentile in UGC-NET (Computer Science and Applications) with Junior Research Fellowship (JRF), 2024.  
-- Maintained a consistent academic record, ranking among the top students throughout undergraduate studies.  
+  <!-- ===== CURRENT FOCUS AREAS ===== -->
+  <h2>Current Focus Areas</h2>
+  <ul>
+    <li>Adversarial Robustness and Model Security</li>
+    <li>Automated Reasoning and Logical Verification</li>
+    <li>Systems Control and Machine Learning Integration</li>
+  </ul>
 
----
+  <hr>
 
-## Positions of Responsibility
+  <!-- ===== CONTACT ===== -->
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:rakeshkrushnajoshi@gmail.com">rakeshkrushnajoshi@gmail.com</a><br>
+    LinkedIn: <a href="https://linkedin.com/in/therakeshjoshi">linkedin.com/in/therakeshjoshi</a><br>
+    Website: <a href="https://www.rakeshjoshi.in">www.rakeshjoshi.in</a>
+  </p>
 
-*(Add details such as student coordinator, teaching assistant, research assistant, or leadership roles.)*
+  <hr>
 
----
+  <blockquote style="font-style: italic; color: #555;">
+    “Striving to connect theoretical understanding with practical systems through design, data, and intelligence.”
+  </blockquote>
 
-## Current Focus Areas
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
 
-- Adversarial Robustness and Model Security  
-- Automated Reasoning and Logical Verification  
-- Systems Control and Machine Learning Integration  
+</body>
 
----
-
-## Contact
-
-Email: [rakeshkrushnajoshi@gmail.com](mailto:rakeshkrushnajoshi@gmail.com)  
-LinkedIn: [linkedin.com/in/therakeshjoshi](https://linkedin.com/in/therakeshjoshi)  
-Website: [www.rakeshjoshi.in](https://www.rakeshjoshi.in)  
-
----
-
-*"Striving to connect theoretical understanding with practical systems through design, data, and intelligence."*
